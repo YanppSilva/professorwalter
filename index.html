@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Mestre do DEFI 2.0 | Prof. Walter Silva</title> <!-- mantém o mesmo teor do título -->
+  <meta name="description" content="Treinamento Mestre do DeFi 2.0: imersão completa em finanças descentralizadas, com aulas ao vivo, gravações por 12 meses e suporte em grupos." />
+  <meta name="theme-color" content="#0b1220" />
+
+  <!-- Canonical (opcional: ajuste para o domínio oficial quando publicar) -->
+  <link rel="canonical" href="./" />
+
+  <!-- Favicon (mantido) -->
+  <link rel="icon" type="image/x-icon" href="assets/crypto.png" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Mestre do DEFI 2.0 | Prof. Walter Silva" />
+  <meta property="og:description" content="Imersão completa no universo do DeFi. Aulas ao vivo, gravações por 12 meses e suporte pós-treinamento." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <!-- Sugestão: adicionar uma imagem OG em assets/og.jpg e ajustar abaixo -->
+  <!-- <meta property="og:image" content="assets/og.jpg" /> -->
+
+  <!-- Ícones (mantidos) -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- CSS novo (vamos criar no próximo passo) -->
+  <link rel="stylesheet" href="app.css" />
+
+  <!-- Google Analytics (mantido no mesmo espírito; substitua o ID real) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag("js", new Date());
+    gtag("config", "YOUR_TRACKING_ID");
+  </script>
+
+  <!-- SEO extra: dados estruturados (Course + Offer) com base no conteúdo existente -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Treinamento Mestre do DeFi 2.0",
+    "description": "Imersão completa em finanças descentralizadas (DeFi), com aulas ao vivo, gravações por 12 meses e suporte em grupos.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Cripto com Fé",
+      "sameAs": [
+        "https://www.instagram.com/criptocomfe/",
+        "https://www.youtube.com/c/CriptoComF%C3%A9"
+      ]
+    },
+    "instructor": {
+      "@type": "Person",
+      "name": "Walter Silva"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "BRL",
+      "price": "790.00",
+      "url": "https://mpago.la/1StyoZb",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Acessibilidade: pular para o conteúdo -->
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" data-elevate>
+    <div class="container header-inner">
+      <a class="brand" href="#topo" aria-label="Ir para o topo">
+        <i class="bx bxl-bitcoin" aria-hidden="true"></i>
+        <span>Cripto com Fé</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Navegação principal">
+        <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+
+        <ul id="menu" class="nav-list">
+          <li><a href="#treinamento">Treinamento</a></li>
+          <li><a href="#modulos">Módulos</a></li>
+          <li><a href="#pagamentos">Pagamentos</a></li>
+          <li><a href="#especialista">Especialista</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+
+        <!-- CTA mantém o link do Mercado Pago (existente) -->
+        <a class="btn btn-primary btn-cta" href="https://mpago.la/1StyoZb" target="_blank" rel="noopener">
+          Inscreva-se
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- HERO -->
+    <section id="topo" class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Treinamento ao vivo • Suporte pós-treinamento • Acesso às gravações</p>
+          <h1 id="hero-title">
+            Treinamento Mestre do <span class="gradient-text">DeFi 2.0</span>
+          </h1>
+
+          <p class="lead">
+            O <strong>Treinamento Mestre do Defi 2.0</strong> oferece uma imersão completa no universo do DEFI.
+            Aprimore seus conhecimentos e habilidades em DEFI com um dos maiores especialistas da área.
+          </p>
+
+          <div class="hero-actions">
+            <!-- Link do Mercado Pago (mantido) -->
+            <a class="btn btn-primary" href="https://mpago.la/1StyoZb" target="_blank" rel="noopener">
+              Garantir minha vaga
+            </a>
+
+            <!-- Abre modal informativo antes de ir para WhatsApp (mantém teor e destino do WhatsApp) -->
+            <button class="btn btn-ghost" type="button" data-open-dialog="pos-compra">
+              Já paguei / Enviar comprovante
+            </button>
+          </div>
+
+          <ul class="hero-badges" aria-label="Destaques do treinamento">
+            <li><i class="fa-solid fa-video" aria-hidden="true"></i> Aulas ao vivo via Meet</li>
+            <li><i class="fa-solid fa-clock" aria-hidden="true"></i> +30 horas de imersão</li>
+            <li><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Gravações por 12 meses</li>
+          </ul>
+        </div>
+
+        <aside class="hero-card" aria-label="Resumo rápido">
+          <div class="card">
+            <h2 class="card-title">Mestre do DEFI 2.0</h2>
+            <p class="price">
+              <span class="price-value">R$ 790,00</span>
+              <span class="price-note">Vagas limitadas</span>
+            </p>
+
+            <p class="card-text">Do básico ao avançado + acompanhamento pós-treinamento.</p>
+
+            <a class="btn btn-primary btn-block" href="https://mpago.la/1StyoZb" target="_blank" rel="noopener">
+              Inscrever agora
+            </a>
+
+            <p class="microcopy">
+              Após o pagamento, envie os comprovantes para receber a documentação.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- TREINAMENTO / CONTEÚDO -->
+    <section id="treinamento" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Treinamento</h2>
+          <p class="section-subtitle">
+            Conteúdo completo, aulas ao vivo, materiais de apoio e suporte dedicado.
+          </p>
+        </header>
+
+        <article class="prose">
+          <p>
+            O <strong>Treinamento Mestre do Defi 2.0</strong> possui mais de 30 horas de imersão no universo do DEFI.
+            Os participantes têm acesso a todo conteúdo didático apresentado no treinamento (incluindo PDF de apresentação,
+            educacionais sobre taxas de Gás e um mapa mental).
+            As aulas acontecem ao vivo via APP Meet. Desta forma os alunos conseguem ter suas dúvidas atendidas no exato momento
+            que elas surgirem. As aulas ficam gravadas para que possam ser assistidas novamente, quantas vezes forem necessárias
+            por um período de 12 meses consecutivos. Dois grupos para suporte, um grupo no Telegram e outro no WhatsApp exclusivo
+            para dúvidas após o treinamento. <strong>Inscrições abertas! Garanta sua vaga agora, as inscrições são limitadas!</strong>
+          </p>
+
+          <h3>Assuntos abordados</h3>
+          <ul class="chips">
+            <li>Princípios do Defi</li>
+            <li>Pools de Liquidez</li>
+            <li>Empréstimos e Colateral</li>
+            <li>Derivativos no Defi</li>
+            <li>Rede Solana</li>
+            <li>Rede Ethereum</li>
+            <li>SWAP</li>
+            <li>Bridges</li>
+            <li>Privacidade</li>
+            <li>Embrulhados de BTC, ETH e várias outras moedas</li>
+            <li>Contratos Inteligentes, dentre outros</li>
+            <li>Introdução à Análise Gráfica para auxílio na montagem das pools de liquidez</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- MÓDULOS -->
+    <section id="modulos" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>Módulos do curso</h2>
+          <p class="section-subtitle">Uma trilha direta ao ponto, do fundamento à prática.</p>
+        </header>
+
+        <div class="grid-cards" role="list">
+          <div class="module-card" role="listitem">
+            <h3>Módulo 1</h3>
+            <p>Princípios do DEFI</p>
+          </div>
+
+          <div class="module-card" role="listitem">
+            <h3>Módulo 2</h3>
+            <p>Contratos Inteligentes e Riscos Operacionais</p>
+          </div>
+
+          <div class="module-card" role="listitem">
+            <h3>Módulo 3</h3>
+            <p>Pool’s de Liquidez, Empréstimos, Colateral, Derivativos e Bridges</p>
+          </div>
+
+          <div class="module-card" role="listitem">
+            <h3>Módulo 4</h3>
+            <p>Renda Passiva</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PREÇO / COMPRA -->
+    <section class="section" aria-labelledby="oferta-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="oferta-title">Oferta</h2>
+          <p class="section-subtitle">Escolha a melhor forma e finalize sua inscrição.</p>
+        </header>
+
+        <div class="pricing-wrap">
+          <article class="pricing-card featured" aria-label="Plano Mestre do DEFI 2.0">
+            <div class="pricing-top">
+              <h3><span class="gradient-text">Mestre do DEFI 2.0</span></h3>
+              <p class="pricing-price">R$ 790,00</p>
+            </div>
+
+            <p class="pricing-desc">Do Básico ao Avançado + Acompanhamento pós-treinamento</p>
+
+            <!-- Link do Mercado Pago (mantido) -->
+            <a class="btn btn-primary btn-block" href="https://mpago.la/1StyoZb" target="_blank" rel="noopener">
+              Inscreva-se
+            </a>
+
+            <ul class="checklist" aria-label="O que está incluso">
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Aulas ao vivo</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Materiais (PDF, mapa mental e conteúdos de gás)</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Gravações por 12 meses</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Suporte em grupos (Telegram e WhatsApp)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGAMENTOS -->
+    <section id="pagamentos" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>Formas de pagamento</h2>
+          <p class="section-subtitle">
+            Após o pagamento, independentemente do método utilizado, entre em contato pelos nossos canais oficiais
+            para comprovar o pagamento e informar seu nome, e-mail e usuário do Telegram.
+          </p>
+        </header>
+
+        <!-- Accordion semântico com details/summary (melhor UX/SEO e acessível) -->
+        <div class="accordion">
+          <details class="accordion-item">
+            <summary>Pagamento via Cripto (Rede Polygon)</summary>
+            <div class="accordion-panel">
+              <p>
+                <strong><span class="gradient-text">139 USDT</span> — 0x7B81d869A238d453B7c54B7895b6B77D0DD8246e</strong>
+              </p>
+            </div>
+          </details>
+
+          <details class="accordion-item">
+            <summary>Pagamento via PIX</summary>
+            <div class="accordion-panel">
+              <p><strong>criptocomfe@gmail.com</strong></p>
+            </div>
+          </details>
+        </div>
+
+        <div class="pay-cta">
+          <button class="btn btn-ghost" type="button" data-open-dialog="pos-compra">
+            Enviar comprovante no WhatsApp
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ESPECIALISTA -->
+    <section id="especialista" class="section">
+      <div class="container">
+        <div class="split">
+          <figure class="media">
+            <img src="assets/sobre.png" alt="Prof. Walter Silva" loading="lazy" />
+          </figure>
+
+          <article class="prose">
+            <h2>Quem é o especialista que irá te <span class="gradient-text">ensinar?</span></h2>
+            <h3>Prof. Walter Silva</h3>
+            <p>
+              <strong>Bacharel</strong> em <strong>Administração</strong> de <strong>Empresas</strong> e <strong>Professor</strong>
+              de Formação com especialização em <strong>Educação Especial</strong>, Walter Silva ingressou no mercado de investimentos
+              em 2018 com ações e fundos imobiliários. No mesmo ano conheceu o bitcoin, porém neste primeiro momento não teve interesse
+              de investir na criptomoeda pelo "<strong>desconhecimento</strong>" e "preconceito" contra o mercado cripto.
+              Em <strong>2020</strong>, após conhecer todo o potencial de crescimento do bitcoin e das criptomoedas, o "professor",
+              como é chamado por seus alunos da <strong>Academia Cripto Com Fe</strong>, se apaixonou por esse mercado e atualmente é
+              trader especialista em Analise Gráfica e Finanças Descentralizadas onde atua e investe diariamente.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARA MIM -->
+    <section class="section section-alt" aria-labelledby="para-mim-title">
+      <div class="container">
+        <div class="split reverse">
+          <article class="prose">
+            <h2 id="para-mim-title">DeFi é <span class="gradient-text">para mim??</span></h2>
+            <h3>Sim!!</h3>
+            <p>
+              Você pode - e deve! - ser um investidor de criptomoedas e gerar
+              <strong>Renda Passiva todos os meses com o DeFi.</strong>
+              Todos os dias centenas de novos investidores estão mergulhando neste 'oceano azul'
+              das finanças descentralizadas e <strong>VOCÊ PODE SER UM DELES!</strong>
+              E eu quero te ajudar nessa jornada. Conta comigo!
+            </p>
+          </article>
+
+          <figure class="media">
+            <img src="assets/interrogacao.png" alt="Ilustração com ponto de interrogação" loading="lazy" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Perguntas frequentes</h2>
+          <p class="section-subtitle">Respostas rápidas para você se inscrever com segurança.</p>
+        </header>
+
+        <div class="accordion">
+          <details class="accordion-item">
+            <summary>Como faço para me inscrever?</summary>
+            <div class="accordion-panel">
+              <p>
+                Você pode se inscrever clicando no botão “Inscreva-se” no topo da página
+                ou nos botões de inscrição nas seções de preço.
+              </p>
+            </div>
+          </details>
+
+          <details class="accordion-item">
+            <summary>Quais são as formas de pagamento?</summary>
+            <div class="accordion-panel">
+              <p>
+                Oferecemos diversas formas de pagamento, incluindo cartão de crédito pelo Mercado Pago,
+                Pix e via Cripto na Rede Polygon. Para mais informações entre em contato no WhatsApp 85 98919-7100.
+              </p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <p class="footer-copy">
+          Copyright © 2024 by Cripto com Fé — Todos os Direitos Reservados.
+        </p>
+
+        <nav class="footer-social" aria-label="Redes sociais">
+          <!-- Links mantidos -->
+          <a href="https://www.instagram.com/criptocomfe/" target="_blank" rel="noopener" aria-label="Instagram">
+            <i class="bx bxl-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.tiktok.com/@prof.waltersilva?lang=en" target="_blank" rel="noopener" aria-label="TikTok">
+            <i class="bx bxl-tiktok" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.youtube.com/c/CriptoComF%C3%A9" target="_blank" rel="noopener" aria-label="YouTube">
+            <i class="bx bxl-youtube" aria-hidden="true"></i>
+          </a>
+          <a href="https://web.telegram.org/k/#@criptocomfe" target="_blank" rel="noopener" aria-label="Telegram">
+            <i class="bx bxl-telegram" aria-hidden="true"></i>
+          </a>
+        </nav>
+      </div>
+
+      <p class="footer-dev">
+        Developed by
+        <a href="https://www.linkedin.com/in/yanpablo/" target="_blank" rel="noopener">Yan Pablo</a>
+      </p>
+    </div>
+
+    <!-- Botões flutuantes -->
+    <button class="fab fab-whatsapp" type="button"
+            aria-label="Abrir WhatsApp"
+            data-whatsapp="https://wa.me/5585989197100">
+      <i class="fab fa-whatsapp" aria-hidden="true"></i>
+    </button>
+
+    <button class="fab fab-top" type="button" aria-label="Voltar ao topo" data-scrolltop>
+      <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+  </footer>
+
+  <!-- Modal acessível (dialog) -->
+  <dialog class="dialog" id="pos-compra" aria-labelledby="dlg-title" aria-describedby="dlg-desc">
+    <form method="dialog" class="dialog-card">
+      <div class="dialog-head">
+        <h2 id="dlg-title">Após a compra</h2>
+        <button class="icon-btn" value="cancel" aria-label="Fechar">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+      </div>
+
+      <p id="dlg-desc">
+        Após efetuar a compra pelo Mercado Pago, entre em contato enviando os comprovantes para receber a documentação.
+        Ao fechar este pop-up você será redirecionado ao WhatsApp do Prof. Walter Silva.
+      </p>
+
+      <div class="dialog-actions">
+        <button class="btn btn-primary" value="confirm" data-go-whatsapp="https://wa.me/5585989197100">
+          Ir para o WhatsApp
+        </button>
+        <button class="btn btn-ghost" value="cancel">Agora não</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- JS novo (vamos criar no próximo passo) -->
+  <script src="app.js" defer></script>
+</body>
+</html>
